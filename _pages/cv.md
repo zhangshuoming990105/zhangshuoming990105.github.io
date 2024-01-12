@@ -11,49 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, University of Chinese Academy of Sciences, 2021
+* Ph.D in Computer Architecture, Institute of Computing Technology, Chinese Academy of Sciences, 2026 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring&Summer 2023: Research Assistant
+  * Intel China Institute, 2 Kexueyuan S Rd, Haidian District, Beijing, China, 100190
+  * Duties included: NPU inference system design(in TVM stack)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* English 8
+* Computer Science 7
+  * C&C++ 8
+  * python 8
+  * others 5
+* Collaboration 9
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->

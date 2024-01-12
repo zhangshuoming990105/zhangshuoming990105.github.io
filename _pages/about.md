@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 ------
-I'm a third year PhD Candidate in Institute of Computing Technology, Chinese Academic of Sciences, supervised by Prof. Huimin Cui. I received my bachelor degree from University of Chinese Academy of Sciences in 2021. 
+I'm a third year PhD Candidate in Institute of Computing Technology, Chinese Academy of Sciences, supervised by Prof. Huimin Cui. I received my bachelor degree in Computer Science from University of Chinese Academy of Sciences in 2021.
+
 My research interests mainly focus on  Artificial Intelligence for Compilers.
-A data-driven personal website
-------
