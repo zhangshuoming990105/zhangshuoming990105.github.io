@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Shuoming Zhang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am a PhD student in Institute of Computing Technology, CAS from 2021. Before that, I received my B.S. degree in Computer Science from University of Chinese Academy of Sciences in 2021. My main research interests are on AI4Sys and Sys4AI."
+  location         : "Beijing, China"
+  email            : "zhangshuoming17@mails.ucas.ac.cn"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
