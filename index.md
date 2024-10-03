@@ -1,6 +1,9 @@
-# About
+---
+layout: home
+author_profile: true
+---
 
-## Introduction
+## About
 
 Shuoming Zhang is a PhD candidate studying in Institute of Computing Technology, CAS since Sep, 2021, under the supervision of Prof Huimin Cui. Before that, he received his B.S. degree in Computer Science from University of Chinese Academy of Sciences in July, 2021. His major research interests are about but not limited to Revising Compiler Design in LLM era, LLMs for System and LLMs in Code Translation.
 

@@ -23,7 +23,7 @@ subtitle                 : "Institute of Computing Technology, CAS"
 name                     : "Shuoming Zhang"
 description              : "The mainpage of Shuoming Zhang"
 url                      : zhangshuoming990105.github.io
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ucas.png"
@@ -165,6 +165,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _pdfs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -263,6 +264,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-pdf-embed
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -271,6 +273,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-pdf-embed
 
 
 # Archives
@@ -312,14 +315,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
