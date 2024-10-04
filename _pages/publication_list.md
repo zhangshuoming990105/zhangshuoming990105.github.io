@@ -8,7 +8,7 @@ permalink: /publications/
 
 - **[EMNLP 2024]** *Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly* **[findings]**  
   Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Huimin Cui<sup>*</sup>
-  [[PDF]]({{ "/_pdfs/207_emnlp.pdf/" | relative_url }})
+  [[Download PDF]]({{ "/_pdfs/207_emnlp.pdf" | relative_url }})
 
 ## Under Review Papers
 
