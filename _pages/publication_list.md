@@ -10,8 +10,8 @@ permalink: /publications/
   Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Huimin Cui<sup>*</sup>
   [[Download PDF]]({{ "/_pdfs/207_emnlp.pdf" | relative_url }})
 
-## Under Review Papers
-
-- **[ICLR 2025]** Using LLMs with Chain-of-Thoughts and decomposed translation for neural compilation.
-
 ## Pre-print Publications
+
+- **[LLM Safety]** *Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms*
+  Authors: **Shuoming Zhang**, Jiacheng Zhao, Ruiyuan Xu, Xiaobing Feng, Huimin Cui<sup>*</sup>
+  [[Download PDF]]({{"/_pdfs/arxiv_version_jailbreak.pdf" | relative_url }})

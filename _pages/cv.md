@@ -16,10 +16,11 @@ permalink: /cv/
 
 - **2021-2026 (Expected):** Doctor of Philosophy in Computer Architecture  
   SKLP, Institute of Computing Technology, CAS and UCAS  
-  *Advisor: Prof. Huimin Cui*
+  *Advisor: Prof. Huimin Cui and Associate Prof. Jiacheng Zhao*
 
 ## Research Interests
 
 - Compiler Design
 - Code Translation
 - Large Language Models
+- LLM safety
