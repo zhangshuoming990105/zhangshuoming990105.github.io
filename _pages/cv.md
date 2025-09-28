@@ -23,4 +23,5 @@ permalink: /cv/
 - Compiler Design
 - Code Translation
 - Large Language Models
-- LLM safety
+- LLM Safety
+- LLM Infrastructure
