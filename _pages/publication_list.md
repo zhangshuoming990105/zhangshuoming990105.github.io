@@ -6,10 +6,15 @@ permalink: /publications/
 
 ## Peer-reviewed Publications
 
-- **[EMNLP 2024]** *Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly* **[findings]**  
+- **[CCF THPC]** *The New Compiler Stack: A Survey on the Synergy of LLMs and
+Compilers*
 
-  Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Huimin Cui<sup>*</sup>
-  [[Download PDF]]({{ "/_pdfs/207_emnlp.pdf" | relative_url }})
+  Authors: **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Qiuchu Yu, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
+  [[Download PDF]]({{ "/_pdfs/THPC_100_preprint.pdf" | relative_url }})
+
+- **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization
+
+  Authors: Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
 
 - **[NeurIPS 2025]** *SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs* **[poster]**
 
@@ -20,6 +25,12 @@ permalink: /publications/
 
   Authors: Changxin Ke, Rui Zhang<sup>*</sup>, Shuo Wang, Li Ding, Guangli Li, Yuanbo Wen, **Shuoming Zhang**, Ruiyuan Xu, Jin Qin, Jiaming Guo, Chenxi Wang, Ling Li, Qi Guo, Yunji Chen 
   [[OpenReview]]({{"https://openreview.net/forum?id=bjUDrU4wPv"}})
+
+- **[EMNLP 2024]** *Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly* **[findings]**  
+
+  Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Huimin Cui<sup>*</sup>
+  [[Download PDF]]({{ "/_pdfs/207_emnlp.pdf" | relative_url }})
+
 
 ## Pre-print Publications
 
