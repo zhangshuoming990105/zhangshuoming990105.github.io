@@ -1,9 +1,8 @@
 ---
 layout: home
 author_profile: true
+title: ""  # Hide the automatic page title
 ---
-
-# Welcome
 
 ## This is me
 
