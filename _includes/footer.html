@@ -19,3 +19,43 @@
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+{% if site.analytics.busuanzi.enabled != false %}
+<div class="page__footer-stats" style="margin-top: 1em; font-size: 0.9em; color: #828282; font-style: italic; transition: all 0.3s ease;">
+  <span id="busuanzi_container_page_pv">
+    Oops, I've been noticed <span id="busuanzi_value_page_pv" style="font-weight: bold; color: #2e7d32; font-size: 1.1em; transition: all 0.3s ease;">0</span> times
+  </span>
+</div>
+<script>
+  // Add smooth animation when the number updates
+  document.addEventListener('DOMContentLoaded', function() {
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList' || mutation.type === 'characterData') {
+          const target = mutation.target;
+          if (target.id === 'busuanzi_value_page_pv' || target.parentElement.id === 'busuanzi_value_page_pv') {
+            const element = document.getElementById('busuanzi_value_page_pv');
+            if (element && element.textContent && element.textContent !== '0') {
+              element.style.transform = 'scale(1.2)';
+              setTimeout(function() {
+                element.style.transform = 'scale(1)';
+              }, 300);
+            }
+          }
+        }
+      });
+    });
+    
+    setTimeout(function() {
+      const targetNode = document.getElementById('busuanzi_value_page_pv');
+      if (targetNode) {
+        observer.observe(targetNode, {
+          childList: true,
+          characterData: true,
+          subtree: true
+        });
+      }
+    }, 1000);
+  });
+</script>
+{% endif %}

@@ -109,6 +109,8 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
+  busuanzi:
+    enabled              : true # Enable busuanzi visitor statistics (不蒜子统计)
 
 
 # Site Author

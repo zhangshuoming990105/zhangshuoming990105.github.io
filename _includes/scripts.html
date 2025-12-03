@@ -21,6 +21,11 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
+{% if site.analytics.busuanzi.enabled != false %}
+<!-- 不蒜子统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endif %}
+
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
     <script src="{{ script | relative_url }}"></script>

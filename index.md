@@ -3,13 +3,18 @@ layout: home
 author_profile: true
 ---
 
-# About
+# Welcome
 
-I am a PhD candidate at the State Key Laboratory of Processors, Institute of Computing Technology, Chinese Academy of Sciences and University of Chinese Academy of Sciences. I work with Prof. Huimin Cui and Assoc. Prof. Jiacheng Zhao on bridging compiler technologies with large language models to build reliable AI-driven systems. I have broader interests in end-to-end system support for LLM workloads, from compiler toolchains to runtime orchestration. I previously earned B.E. in Computer Science from the University of Chinese Academy of Sciences.
+## This is me
+
+I am a PhD candidate at the [State Key Laboratory of Processors](https://sklp.ict.ac.cn/), Institute of Computing Technology, Chinese Academy of Sciences and [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/). 
+
+I work with [Prof. Huimin Cui](https://cuihuimin.github.io/) and [Assoc. Prof. Jiacheng Zhao](https://jiacheng.page/) on bridging compiler technologies with large language models to build reliable AI-driven systems. I have broader interests in end-to-end system support for LLM workloads, from compiler toolchains to runtime orchestration. I previously earned B.E. in Computer Science from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/).
 
 - **Current position:** PhD candidate, ICT CAS (Sep 2021 – present)
-- **Advisors:** Prof. Huimin Cui, Assoc. Prof. Jiacheng Zhao
-- **Email:** zhangshuoming17@mails.ucas.ac.cn
+- **Advisors:** [Prof. Huimin Cui](https://cuihuimin.github.io/), [Assoc. Prof. Jiacheng Zhao](https://jiacheng.page/)
+- **Email:** [zhangshuoming17@mails.ucas.ac.cn](mailto:zhangshuoming17@mails.ucas.ac.cn)
+- **Location:** Beijing, China
 
 ## Research Interests
 
@@ -20,8 +25,8 @@ I am a PhD candidate at the State Key Laboratory of Processors, Institute of Com
 
 ## Education
 
-- **Ph.D. in Computer Architecture**, ICT CAS & UCAS, 2021 – 2026 (expected)
-- **B.Eng. in Computer Science**, University of Chinese Academy of Sciences, 2017 – 2021
+- **Ph.D. in Computer Architecture**, ICT CAS & [UCAS](https://www.ucas.ac.cn/), 2021 – 2026 (expected)
+- **B.Eng. in Computer Science**, [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/), 2017 – 2021
 
 ## Research Projects
 
