@@ -6,15 +6,16 @@ permalink: /publications/
 
 ## Peer-reviewed Publications
 
+- **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization **[Distinguished Paper Award]**
+
+  Authors: Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
+  [[Download PDF]]({{ "/_pdfs/cgo26main-p77.pdf" | relative_url }})
+
 - **[CCF THPC]** *The New Compiler Stack: A Survey on the Synergy of LLMs and
 Compilers*
 
   Authors: **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Qiuchu Yu, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
   [[Download PDF]]({{ "/_pdfs/THPC_100_preprint.pdf" | relative_url }})
-
-- **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization
-
-  Authors: Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
 
 - **[NeurIPS 2025]** *SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs* **[poster]**
 

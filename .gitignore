@@ -6,6 +6,8 @@ _site
 
 # Ruby/Bundler
 .bundle/
+.bundle_home/
+.bundle_tmp/
 vendor/
 Gemfile.lock
 
