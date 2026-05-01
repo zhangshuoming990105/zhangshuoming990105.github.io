@@ -6,6 +6,21 @@ permalink: /publications/
 
 ## Peer-reviewed Publications
 
+<sup>†</sup> equal contribution; <sup>*</sup> corresponding author(s)
+
+- **[ICML 2026]** *CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization* **[spotlight]**
+
+  Authors: Yangyu Zhang<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
+
+- **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis*
+
+  Authors: Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui
+
+- **[CCS 2026]** *When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output*
+
+  Authors: **Shuoming Zhang**, Jiacheng Zhao, Ruiyuan Xu, Xiaobing Feng, Huimin Cui<sup>*</sup>
+  [[Download PDF]]({{"/_pdfs/arxiv_version_jailbreak.pdf" | relative_url }})
+
 - **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization **[Distinguished Paper Award]**
 
   Authors: Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
@@ -16,6 +31,11 @@ Compilers*
 
   Authors: **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Qiuchu Yu, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
   [[Download PDF]]({{ "/_pdfs/THPC_100_preprint.pdf" | relative_url }})
+
+- **[CCF THPC]** *LEGO-Compiler: Enhancing Neural Compilation Through Translation Composability*
+
+  Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Xiaobing Feng, Huimin Cui<sup>*</sup>
+  [[Download PDF]]({{"/_pdfs/arxiv_version_lego.pdf" | relative_url }})
 
 - **[NeurIPS 2025]** *SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs* **[poster]**
 
@@ -34,16 +54,6 @@ Compilers*
 
 
 ## Pre-print Publications
-
-- **[LLM Safety]** *Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms*
-
-  Authors: **Shuoming Zhang**, Jiacheng Zhao, Ruiyuan Xu, Xiaobing Feng, Huimin Cui<sup>*</sup>
-  [[Download PDF]]({{"/_pdfs/arxiv_version_jailbreak.pdf" | relative_url }})
-
-- **[LLM Compiler]** *LEGO-Compiler: Enhancing Neural Compilation Through Translation Composability*
-
-  Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Xiaobing Feng, Huimin Cui<sup>*</sup>
-  [[Download PDF]]({{"/_pdfs/arxiv_version_lego.pdf" | relative_url }})
 
 - **[LLM for Sys]** *Large Processor Chip Model*
 

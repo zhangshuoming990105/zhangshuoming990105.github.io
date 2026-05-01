@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -117,28 +117,25 @@ analytics:
 author:
   name             : "Shuoming Zhang"
   avatar           : "/assets/images/logo.jpg"
-  bio              : "I am a PhD student in Institute of Computing Technology, CAS since 2021, under the supervision of Prof. Huimin Cui."
+  bio              : "PhD candidate at ICT, CAS. Compilers × LLMs × reliable AI systems."
   location         : "Beijing, China"
   email            : "zhangshuoming17@mails.ucas.ac.cn"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "zhangshuoming17@mails.ucas.ac.cn"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://zhangshuoming990105.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "mailto:zhangshuoming17@mails.ucas.ac.cn"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=mVkTXAoAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0004-4210-5123"
+    - label: "OpenReview"
+      icon: "fas fa-fw fa-book-open"
+      url: "https://openreview.net/profile?id=~Shuoming_Zhang1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zhangshuoming990105"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
