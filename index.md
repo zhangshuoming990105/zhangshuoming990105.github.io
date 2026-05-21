@@ -8,7 +8,11 @@ title: ""  # Hide the automatic page title
 
 I am a PhD candidate at the [State Key Laboratory of Processors](https://sklp.ict.ac.cn/), Institute of Computing Technology, CAS, and [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/), advised by [Prof. Huimin Cui](https://cuihuimin.github.io/) and [Assoc. Prof. Jiacheng Zhao](https://jiacheng.page/).
 
-My research bridges compiler technology and large language models to build reliable AI-driven systems. I am broadly interested in end-to-end system support for LLM workloads — from compiler toolchains to runtime orchestration. I received my B.Eng. in Computer Science from UCAS in 2021.
+My current research focuses on **kernel agents** and **large-scale multi-agent systems** — building LLM-driven agents that generate and optimize low-level kernels, and orchestrating large populations of agents to tackle complex system-level tasks. I am broadly interested in end-to-end system support for LLM workloads, from agent infrastructure to runtime orchestration. I received my B.Eng. in Computer Science from UCAS in 2021.
+
+## Research Vision
+
+I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent systems** as the two frontiers I care about most: the former pushes machine intelligence down to the metal — letting models reason about, write, and tune the kernels that power themselves; the latter scales it outward — turning many imperfect agents into a system that is competent, reliable, and cooperative. I believe **AGI is coming**, and I am committed to the *last-mile* engineering and exploration that will make it real — closing the gap between what current models can almost do and what intelligent systems must reliably deliver.
 
 ## News
 
@@ -20,34 +24,36 @@ My research bridges compiler technology and large language models to build relia
 
 ## Selected Publications
 
-- **[ICML 2026 spotlight]** *CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization* — Yangyu Zhang<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, et al.
-- **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis* — Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, et al.
-- **[CCS 2026]** *When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output* — **Shuoming Zhang**, et al.
-- **[CGO 2026 Distinguished Paper Award]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU Translation via 2D Vectorization* — Shuaijiang Li, Jiacheng Zhao, Ying Liu, **Shuoming Zhang**, et al.
+- **[ICML 2026 spotlight]** *CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization* — Yangyu Zhang<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
+- **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis* — Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui
+- **[CCS 2026]** *When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output* — **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Hanyuan Dong, Ruiyuan Xu, Zhicheng Li, Yangyu Zhang, Shuaijiang Li, Yuan Wen, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
+- **[CGO 2026 Distinguished Paper Award]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU Translation via 2D Vectorization* — Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
 
 See the [full publication list]({{ "/publications/" | relative_url }}).
 
 ## Research Interests
 
+- Kernel agents — LLM-driven generation, optimization, and verification of low-level compute kernels
+- Large-scale multi-agent systems — orchestration, coordination, and infrastructure for many-agent workloads
 - LLM infrastructure and serving systems
-- Compiler optimization for AI accelerators
-- LLM-based program synthesis and debugging
 - Reliability and safety for LLM-driven systems
 
 ## Research Projects
 
 ### Current
 
-- **LLM-guided compilation workflows** — Designing model-in-the-loop compilation pipelines that adapt source-to-assembly translation and error recovery with LLM feedback.
-- **LLM-aware compiler construction** — Building reusable compiler components that leverage LLM reasoning for IR transformation, code generation, and verification.
+- **Kernel agents** — Building agentic pipelines that synthesize, tune, and verify high-performance kernels for AI accelerators with LLM-in-the-loop search and feedback.
+- **Large-scale multi-agent systems** — Designing orchestration and runtime support for populations of cooperating LLM agents on complex software-engineering and system-level tasks.
 - **Secure and robust LLM decoding** — Studying constrained decoding strategies to mitigate LLM safety vulnerabilities while preserving task performance.
 
 ### Previous
 
+- **LLM-guided compilation workflows** — Model-in-the-loop compilation pipelines for source-to-assembly translation and error recovery with LLM feedback.
+- **LLM-aware compiler construction** — Reusable compiler components that leverage LLM reasoning for IR transformation, code generation, and verification.
 - **Heterogeneous model offloading with TVM (Intel collaboration)** — Explored NPU/CPU co-execution and scheduling strategies within the TVM stack, prototyped a new TVM backend for simulator-based NPU.
 - **VLIW instruction scheduling (Huawei collaboration)** — Developed instruction scheduling heuristics targeting domain-specific VLIW architectures.
 
 ## Education
 
-- **Ph.D. in Computer Architecture**, ICT CAS & [UCAS](https://www.ucas.ac.cn/), 2021 – 2026 (expected)
+- **Ph.D. in Computer Architecture**, ICT CAS & [UCAS](https://www.ucas.ac.cn/), 2021 – now
 - **B.Eng. in Computer Science**, [UCAS](https://www.ucas.ac.cn/), 2017 – 2021

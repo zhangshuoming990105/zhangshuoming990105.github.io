@@ -117,7 +117,7 @@ analytics:
 author:
   name             : "Shuoming Zhang"
   avatar           : "/assets/images/logo.jpg"
-  bio              : "PhD candidate at ICT, CAS. Compilers × LLMs × reliable AI systems."
+  bio              : "PhD candidate at ICT, CAS. Kernel agents × large-scale multi-agent systems."
   location         : "Beijing, China"
   email            : "zhangshuoming17@mails.ucas.ac.cn"
   links:

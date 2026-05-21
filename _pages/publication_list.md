@@ -18,8 +18,8 @@ permalink: /publications/
 
 - **[CCS 2026]** *When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output*
 
-  Authors: **Shuoming Zhang**, Jiacheng Zhao, Ruiyuan Xu, Xiaobing Feng, Huimin Cui<sup>*</sup>
-  [[Download PDF]]({{"/_pdfs/arxiv_version_jailbreak.pdf" | relative_url }})
+  Authors: **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Hanyuan Dong, Ruiyuan Xu, Zhicheng Li, Yangyu Zhang, Shuaijiang Li, Yuan Wen, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
+  [[Download PDF]]({{"/_pdfs/ccs2026_grammar_attack.pdf" | relative_url }}) [[arXiv]](https://arxiv.org/abs/2503.24191)
 
 - **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization **[Distinguished Paper Award]**
 
