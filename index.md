@@ -16,17 +16,21 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## News
 
+- **May 2026** — New preprint *KLineage: Learning When to Optimize from Expert GPU-Kernel Lineages* on [arXiv](https://arxiv.org/abs/2605.28213).
 - **May 2026** — Two papers accepted at **ICML 2026**, including one **spotlight** (*CONTINUUM*).
 - **Apr 2026** — *When Grammar Guides the Attack* accepted at **CCS 2026**.
+- **Mar 2026** — *Symbiotic MLLM Serving* accepted at **ISCA 2026**.
 - **Mar 2026** — *LEGO-Compiler* accepted at **CCF THPC**.
 - **Feb 2026** — *T2T* receives the **Distinguished Paper Award** at **CGO 2026**.
 - **Sep 2025** — Two papers accepted at **NeurIPS 2025** (posters).
 
 ## Selected Publications
 
+- **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages* — **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[ICML 2026 spotlight]** *CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization* — Yangyu Zhang<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis* — Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui
 - **[CCS 2026]** *When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output* — **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Hanyuan Dong, Ruiyuan Xu, Zhicheng Li, Yangyu Zhang, Shuaijiang Li, Yuan Wen, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
+- **[ISCA 2026]** *Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs* — Zhicheng Li, Jiacheng Zhao<sup>*</sup>, Yangyu Zhang, Zhaolin Duan, Xinyu Liu, Siqi Li, **Shuoming Zhang**, Shuaijiang Li, Donglin Yu, Yuan Wen, Chunwei Xia, Xiyu Shi, Huimin Cui
 - **[CGO 2026 Distinguished Paper Award]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU Translation via 2D Vectorization* — Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
 
 See the [full publication list]({{ "/publications/" | relative_url }}).

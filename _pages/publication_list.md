@@ -21,6 +21,11 @@ permalink: /publications/
   Authors: **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Hanyuan Dong, Ruiyuan Xu, Zhicheng Li, Yangyu Zhang, Shuaijiang Li, Yuan Wen, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
   [[Download PDF]]({{"/_pdfs/ccs2026_grammar_attack.pdf" | relative_url }}) [[arXiv]](https://arxiv.org/abs/2503.24191)
 
+- **[ISCA 2026]** *Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs*
+
+  Authors: Zhicheng Li, Jiacheng Zhao<sup>*</sup>, Yangyu Zhang, Zhaolin Duan, Xinyu Liu, Siqi Li, **Shuoming Zhang**, Shuaijiang Li, Donglin Yu, Yuan Wen, Chunwei Xia, Xiyu Shi, Huimin Cui
+  [[Download PDF]]({{"/_pdfs/isca2026_resonator.pdf" | relative_url }})
+
 - **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization **[Distinguished Paper Award]**
 
   Authors: Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
@@ -54,6 +59,11 @@ Compilers*
 
 
 ## Pre-print Publications
+
+- **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages*
+
+  Authors: **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
+  [[Download PDF]]({{"/_pdfs/arxiv_2605.28213.pdf" | relative_url }}) [[arXiv]](https://arxiv.org/abs/2605.28213)
 
 - **[LLM for Sys]** *Large Processor Chip Model*
 
