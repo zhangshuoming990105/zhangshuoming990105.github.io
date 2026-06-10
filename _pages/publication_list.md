@@ -57,6 +57,11 @@ Compilers*
   Authors: **Shuoming Zhang**, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Huimin Cui<sup>*</sup>
   [[Download PDF]]({{ "/_pdfs/207_emnlp.pdf" | relative_url }})
 
+- **[SCIS 2026]** *Large Processor Chip Model*
+
+  Authors(Alphabetical order, equal contributions): Kaiyan Chang, Mingzhi Chen, Yunji Chen<sup>*</sup>, Zhirong Chen, Dongrui Fan, Junfeng Gong, Nan Guo, Yinhe Han, Qinfen Hao, Shuo Hou, Xuan Huang, Pengwei Jin, Changxin Ke, Cangyuan Li, Guangli Li, Huawei Li, Kuan Li, Naipeng Li, Shengwen Liang, Cheng Liu, Hongwei Liu, Jiahua Liu, Junliang Lv, Jianan Mu, Jin Qin, Bin Sun, Chenxi Wang, Duo Wang, Mingjun Wang, Ying Wang<sup>*</sup>, Chenggang Wu, Peiyang Wu, Teng Wu, Xiao Xiao, Mengyao Xie, Chenwei Xiong, Ruiyuan Xu, Mingyu Yan, Xiaochun Ye, Kuai Yu, Rui Zhang, **Shuoming Zhang**, Jiacheng Zhao
+  [[Download PDF]](https://link.springer.com/content/pdf/10.1007/s11432-025-4739-1.pdf) [[Springer]](https://link.springer.com/article/10.1007/s11432-025-4739-1)
+
 
 ## Pre-print Publications
 
@@ -64,8 +69,3 @@ Compilers*
 
   Authors: **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
   [[Download PDF]]({{"/_pdfs/arxiv_2605.28213.pdf" | relative_url }}) [[arXiv]](https://arxiv.org/abs/2605.28213)
-
-- **[LLM for Sys]** *Large Processor Chip Model*
-
-  Authors(Alphabetical order, equal contributions): Kaiyan Chang, Mingzhi Chen, Yunji Chen<sup>*</sup>, Zhirong Chen, Dongrui Fan, Junfeng Gong, Nan Guo, Yinhe Han, Qinfen Hao, Shuo Hou, Xuan Huang, Pengwei Jin, Changxin Ke, Cangyuan Li, Guangli Li, Huawei Li, Kuan Li, Naipeng Li, Shengwen Liang, Cheng Liu, Hongwei Liu, Jiahua Liu, Junliang Lv, Jianan Mu, Jin Qin, Bin Sun, Chenxi Wang, Duo Wang, Mingjun Wang, Ying Wang<sup>*</sup>, Chenggang Wu, Peiyang Wu, Teng Wu, Xiao Xiao, Mengyao Xie, Chenwei Xiong, Ruiyuan Xu, Mingyu Yan, Xiaochun Ye, Kuai Yu, Rui Zhang, **Shuoming Zhang**, Jiacheng Zhao
-  [[Download PDF]]({{"/_pdfs/2506.02929v1.pdf" | relative_url }})
