@@ -6,8 +6,8 @@ main:
     url: /publications/
     external: false
   - title: "CV"
-    url: /cv/
-    external: false
+    url: /_pdfs/Shuoming_Zhang_CV.pdf
+    target: "_blank"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
