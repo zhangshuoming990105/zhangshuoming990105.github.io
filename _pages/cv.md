@@ -14,7 +14,7 @@ toc_sticky: true
   </a>
 </p>
 
-**Shuoming Zhang** (张硕明) &nbsp;·&nbsp; Ph.D. Candidate in Computer Architecture<br>
+**Shuoming Zhang** (张朔铭) &nbsp;·&nbsp; Ph.D. Candidate in Computer Architecture<br>
 State Key Laboratory of Processors, Institute of Computing Technology, CAS &nbsp;|&nbsp; University of Chinese Academy of Sciences<br>
 <a href="mailto:zhangshuoming17@mails.ucas.ac.cn">zhangshuoming17@mails.ucas.ac.cn</a> &nbsp;·&nbsp; Beijing, China &nbsp;·&nbsp;
 <a href="https://scholar.google.com/citations?user=mVkTXAoAAAAJ&hl=en">Google Scholar</a> &nbsp;·&nbsp;
