@@ -40,6 +40,7 @@ See the [full publication list]({{ "/publications/" | relative_url }}).
 - Kernel agents — LLM-driven generation, optimization, and verification of low-level compute kernels
 - Large-scale multi-agent systems — orchestration, coordination, and infrastructure for many-agent workloads
 - LLM infrastructure and serving systems
+- Constrained and structured decoding — part of LLM infrastructure, for controllable and reliable generation
 - Reliability and safety for LLM-driven systems
 
 ## Research Projects
@@ -48,7 +49,8 @@ See the [full publication list]({{ "/publications/" | relative_url }}).
 
 - **Kernel agents** — Building agentic pipelines that synthesize, tune, and verify high-performance kernels for AI accelerators with LLM-in-the-loop search and feedback.
 - **Large-scale multi-agent systems** — Designing orchestration and runtime support for populations of cooperating LLM agents on complex software-engineering and system-level tasks.
-- **Secure and robust LLM decoding** — Studying constrained decoding strategies to mitigate LLM safety vulnerabilities while preserving task performance.
+- **Constrained and structured decoding** — Decoding as LLM infrastructure: constrained and grammar-based decoding for controllable, reliable, and safe generation.
+- **Grammar-guided code generation** *(work in progress)* — Steering LLMs with grammar constraints to produce syntactically and semantically valid code.
 
 ### Previous
 

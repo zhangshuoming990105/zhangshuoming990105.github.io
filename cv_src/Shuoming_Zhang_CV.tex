@@ -4,7 +4,7 @@
 % =====================================================================
 \documentclass[11pt]{article}
 
-\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage[a4paper,margin=0.78in]{geometry}
 \usepackage{fontspec}
 \usepackage{xeCJK}
 \usepackage{xcolor}
@@ -37,7 +37,7 @@
   {\large\bfseries\color{accent}}
   {}{0em}
   {}[\vspace{-0.6ex}{\color{rulegray}\titlerule[0.9pt]}]
-\titlespacing*{\section}{0pt}{1.6ex}{1.0ex}
+\titlespacing*{\section}{0pt}{1.15ex}{0.7ex}
 
 \setlist[itemize]{leftmargin=1.3em,itemsep=0.25ex,topsep=0.3ex,parsep=0pt}
 \setlength{\parindent}{0pt}
@@ -90,7 +90,7 @@
 
 % ---------------- Research Interests ----------------
 \section{Research Interests}
-\datedline{Kernel agents (LLM-driven generation, optimization, and verification of low-level compute kernels); large-scale multi-agent systems; LLM infrastructure and serving systems; reliability and safety for LLM-driven systems; compiler design and code translation.}{}
+\datedline{Kernel agents (LLM-driven generation, optimization, and verification of low-level compute kernels); large-scale multi-agent systems; LLM infrastructure and serving systems, with an emphasis on constrained and structured decoding; reliability and safety for LLM-driven systems; compiler design and code translation.}{}
 
 % ---------------- Education ----------------
 \section{Education}
@@ -105,7 +105,7 @@
 \begin{itemize}
   \item \textbf{Distinguished Paper Award}, CGO 2026 --- \emph{From Threads to Tiles (T2T)}.
   \item \textbf{Spotlight}, ICML 2026 --- \emph{CONTINUUM}.
-  \item \textbf{Hygon Ph.D. Award} (海光博士生奖), 2024.
+  \item \textbf{Hygon Ph.D. Award}, 2024.
 \end{itemize}
 
 % ---------------- Publications ----------------
@@ -114,7 +114,7 @@
 \vspace{0.4ex}
 
 \textbf{\color{accent}Peer-Reviewed}
-\begin{enumerate}[leftmargin=1.6em,itemsep=0.7ex,topsep=0.5ex,label=\arabic*.]
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.45ex,topsep=0.3ex,label=\arabic*.]
   \pub{ICML 2026, spotlight}{CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization}{Yangyu Zhang\eq, \me\eq, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao\co}{\relax}
 
   \pub{ICML 2026}{LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis}{Ruiyuan Xu\eq, \me\eq, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui}{\relax}
@@ -139,7 +139,7 @@
 \end{enumerate}
 
 \textbf{\color{accent}Preprints}
-\begin{enumerate}[leftmargin=1.6em,itemsep=0.7ex,topsep=0.5ex,label=\arabic*.,start=1]
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.45ex,topsep=0.3ex,label=\arabic*.,start=1]
   \pub{arXiv 2026}{Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages (KLineage)}{\me\eq, Qiuchu Yu\eq, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao\co}{\href{https://arxiv.org/abs/2605.28213}{arXiv:2605.28213}}
 \end{enumerate}
 
@@ -149,7 +149,8 @@
 \begin{itemize}
   \item \textbf{Kernel agents.} Agentic pipelines that synthesize, tune, and verify high-performance kernels for AI accelerators with LLM-in-the-loop search and feedback.
   \item \textbf{Large-scale multi-agent systems.} Orchestration and runtime support for populations of cooperating LLM agents on complex software-engineering and system-level tasks.
-  \item \textbf{Secure and robust LLM decoding.} Constrained-decoding strategies that mitigate LLM safety vulnerabilities while preserving task performance.
+  \item \textbf{Constrained and structured decoding.} Decoding as LLM infrastructure: constrained and grammar-based decoding for controllable, reliable, and safe generation (e.g., structured-output control-plane analysis).
+  \item \textbf{Grammar-guided code generation} \emph{(work in progress).} Steering LLMs with grammar constraints to produce syntactically and semantically valid code.
 \end{itemize}
 \vspace{0.4ex}
 \textbf{Earlier projects}
