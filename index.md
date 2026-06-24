@@ -62,6 +62,10 @@ See the [full publication list]({{ "/publications/" | relative_url }}).
 - **Heterogeneous model offloading with TVM (Intel collaboration)** — Explored NPU/CPU co-execution and scheduling strategies within the TVM stack, prototyped a new TVM backend for simulator-based NPU.
 - **VLIW instruction scheduling (Huawei collaboration)** — Developed instruction scheduling heuristics targeting domain-specific VLIW architectures.
 
+## Professional Service
+
+- **Reviewer** — TMLR (Transactions on Machine Learning Research), Artificial Intelligence Review, ICML, NeurIPS, ICLR
+
 ## Education
 
 - **Ph.D. in Computer Architecture**, ICT CAS & [UCAS](https://www.ucas.ac.cn/), 2021 – now
