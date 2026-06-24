@@ -121,9 +121,6 @@ author:
   location         : "Beijing, China"
   email            : "zhangshuoming17@mails.ucas.ac.cn"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:zhangshuoming17@mails.ucas.ac.cn"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=mVkTXAoAAAAJ&hl=en"

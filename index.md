@@ -6,13 +6,16 @@ title: ""  # Hide the automatic page title
 
 ## About
 
+**I am on the academic job market**, seeking a **postdoc or assistant-professor (AP) position starting in 2027**. I would be glad to connect — please feel free to [reach out](mailto:zhangshuoming17@mails.ucas.ac.cn) or take a look at my [CV]({{ "/_pdfs/Shuoming_Zhang_CV.pdf" | relative_url }}).
+{: .notice--info}
+
 I am a PhD candidate at the [State Key Laboratory of Processors](https://sklp.ict.ac.cn/), Institute of Computing Technology, CAS, and [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/), advised by [Prof. Huimin Cui](https://cuihuimin.github.io/) and [Assoc. Prof. Jiacheng Zhao](https://jiacheng.page/).
 
 My current research focuses on **kernel agents** and **large-scale multi-agent systems** — building LLM-driven agents that generate and optimize low-level kernels, and orchestrating large populations of agents to tackle complex system-level tasks. I am broadly interested in end-to-end system support for LLM workloads, from agent infrastructure to runtime orchestration. I received my B.Eng. in Computer Science from UCAS in 2021.
 
 ## Research Vision
 
-I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent systems** as the two frontiers I care about most: the former pushes machine intelligence down to the metal — letting models reason about, write, and tune the kernels that power themselves; the latter scales it outward — turning many imperfect agents into a system that is competent, reliable, and cooperative. I believe **AGI is coming**, and I am committed to the *last-mile* engineering and exploration that will make it real — closing the gap between what current models can almost do and what intelligent systems must reliably deliver.
+I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent systems** as the two frontiers I care about most: the former pushes machine intelligence down to the metal — letting models reason about, write, and tune the kernels that power themselves; the latter scales it outward — turning many imperfect agents into a system that is competent, reliable, and cooperative. Underpinning both is the **infrastructure** that makes LLM generation controllable and trustworthy — from constrained and structured decoding to robust serving — so that what models produce can be relied upon, not merely hoped for. I believe **AGI is coming**, and I am committed to the *last-mile* engineering and exploration that will make it real — closing the gap between what current models can almost do and what intelligent systems must reliably deliver.
 
 ## News
 
