@@ -36,3 +36,11 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
+
+# LaTeX build artifacts (keep .tex source; published PDF lives in _pdfs/)
+cv_src/*.aux
+cv_src/*.log
+cv_src/*.out
+cv_src/*.png
+cv_src/*.pdf
+cv_src/build*.log

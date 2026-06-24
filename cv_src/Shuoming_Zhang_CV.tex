@@ -1,0 +1,167 @@
+% =====================================================================
+%  Curriculum Vitae - Shuoming Zhang
+%  Compile with: xelatex Shuoming_Zhang_CV.tex
+% =====================================================================
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+% ---------- Fonts ----------
+\setmainfont{Times New Roman}        % classic serif, present on macOS
+\setCJKmainfont{Songti SC}
+
+% ---------- Colors ----------
+\definecolor{accent}{HTML}{1F3A5F}   % deep navy
+\definecolor{rulegray}{HTML}{B0B0B0}
+\definecolor{linkcol}{HTML}{1F5FA8}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkcol,
+  urlcolor=linkcol,
+  pdftitle={Shuoming Zhang - Curriculum Vitae},
+  pdfauthor={Shuoming Zhang}
+}
+
+% ---------- Section styling ----------
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0em}
+  {}[\vspace{-0.6ex}{\color{rulegray}\titlerule[0.9pt]}]
+\titlespacing*{\section}{0pt}{1.6ex}{1.0ex}
+
+\setlist[itemize]{leftmargin=1.3em,itemsep=0.25ex,topsep=0.3ex,parsep=0pt}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% ---------- Helper macros ----------
+% Two-column dated entry: \entry{left}{right-date}
+\newcommand{\datedline}[2]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X@{}r@{}}
+  #1 & {\small #2}
+  \end{tabularx}\par}
+
+% Publication item
+\newcommand{\pub}[4]{% venue | title | authors | links
+  \item \textbf{[#1]}\, \emph{#2}\\[0.2ex]
+  {\small #3}%
+  \ifx\relax#4\relax\else\\[0.2ex]{\small #4}\fi}
+
+\newcommand{\me}{\textbf{Shuoming Zhang}}
+\newcommand{\eq}{$^{\dagger}$}
+\newcommand{\co}{$^{*}$}
+
+% =====================================================================
+\begin{document}
+
+% ---------------- Header ----------------
+{\centering
+  {\Huge\bfseries\color{accent} Shuoming Zhang}\;{\LARGE （张硕明）}\\[0.6ex]
+  {\normalsize Ph.D. Candidate in Computer Architecture}\\[0.4ex]
+  {\small State Key Laboratory of Processors, Institute of Computing Technology, CAS \;|\; University of Chinese Academy of Sciences}\\[0.9ex]
+  {\small
+    \href{mailto:zhangshuoming17@mails.ucas.ac.cn}{zhangshuoming17@mails.ucas.ac.cn}
+    \;\textbullet\;
+    Beijing, China
+    \;\textbullet\;
+    \href{https://zhangshuoming990105.github.io}{zhangshuoming990105.github.io}
+  }\\[0.3ex]
+  {\small
+    \href{https://scholar.google.com/citations?user=mVkTXAoAAAAJ&hl=en}{Google Scholar}
+    \;\textbullet\;
+    \href{https://orcid.org/0009-0004-4210-5123}{ORCID 0009-0004-4210-5123}
+    \;\textbullet\;
+    \href{https://github.com/zhangshuoming990105}{GitHub}
+    \;\textbullet\;
+    \href{https://openreview.net/profile?id=~Shuoming_Zhang1}{OpenReview}
+  }\\
+  \par
+}
+\vspace{0.6ex}
+
+% ---------------- Research Interests ----------------
+\section{Research Interests}
+\datedline{Kernel agents (LLM-driven generation, optimization, and verification of low-level compute kernels); large-scale multi-agent systems; LLM infrastructure and serving systems; reliability and safety for LLM-driven systems; compiler design and code translation.}{}
+
+% ---------------- Education ----------------
+\section{Education}
+\datedline{\textbf{Ph.D. in Computer Architecture}, Institute of Computing Technology, CAS \& UCAS}{2021 -- present}
+\vspace{-0.4ex}
+\datedline{\small Advisors: Prof. Huimin Cui and Assoc. Prof. Jiacheng Zhao. State Key Laboratory of Processors (SKLP).}{\small Beijing}
+\vspace{0.6ex}
+\datedline{\textbf{B.Eng. in Computer Science}, University of Chinese Academy of Sciences (UCAS)}{2017 -- 2021}
+
+% ---------------- Honors ----------------
+\section{Selected Honors \& Awards}
+\begin{itemize}
+  \item \textbf{Distinguished Paper Award}, CGO 2026 --- \emph{From Threads to Tiles (T2T)}.
+  \item \textbf{Spotlight}, ICML 2026 --- \emph{CONTINUUM}.
+\end{itemize}
+
+% ---------------- Publications ----------------
+\section{Publications}
+{\small $^{\dagger}$ equal contribution \quad $^{*}$ corresponding author.\quad Author name in \textbf{bold}.}
+\vspace{0.4ex}
+
+\textbf{\color{accent}Peer-Reviewed}
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.7ex,topsep=0.5ex,label=\arabic*.]
+  \pub{ICML 2026, spotlight}{CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization}{Yangyu Zhang\eq, \me\eq, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao\co}{\relax}
+
+  \pub{ICML 2026}{LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis}{Ruiyuan Xu\eq, \me\eq, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui}{\relax}
+
+  \pub{CCS 2026}{When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output}{\me, Jiacheng Zhao\co, Hanyuan Dong, Ruiyuan Xu, Zhicheng Li, Yangyu Zhang, Shuaijiang Li, Yuan Wen, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui}{\href{https://arxiv.org/abs/2503.24191}{arXiv:2503.24191}}
+
+  \pub{ISCA 2026}{Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs}{Zhicheng Li, Jiacheng Zhao\co, Yangyu Zhang, Zhaolin Duan, Xinyu Liu, Siqi Li, \me, Shuaijiang Li, Donglin Yu, Yuan Wen, Chunwei Xia, Xiyu Shi, Huimin Cui}{\relax}
+
+  \pub{CGO 2026, Distinguished Paper Award}{From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU Translation via 2D Vectorization}{Shuaijiang Li, Jiacheng Zhao\co, Ying Liu, \me, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui}{\relax}
+
+  \pub{SCIS 2026}{Large Processor Chip Model}{Kaiyan Chang, Mingzhi Chen, Yunji Chen\co, \ldots, Rui Zhang, \me, Jiacheng Zhao (alphabetical order, equal contributions)}{\href{https://link.springer.com/article/10.1007/s11432-025-4739-1}{Springer}}
+
+  \pub{CCF THPC}{The New Compiler Stack: A Survey on the Synergy of LLMs and Compilers}{\me, Jiacheng Zhao\co, Qiuchu Yu, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui}{\relax}
+
+  \pub{CCF THPC}{LEGO-Compiler: Enhancing Neural Compilation Through Translation Composability}{\me, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Xiaobing Feng, Huimin Cui\co}{\relax}
+
+  \pub{NeurIPS 2025, poster}{SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs}{Zhicheng Li, \me, Jiacheng Zhao\co, Siqi Li, Xiyu Shi, Yangyu Zhang, Shuaijiang Li, Donglin Yu, Zheming Yang, Yuan Wen, Huimin Cui}{\href{https://openreview.net/forum?id=w4qJ056WhI}{OpenReview}}
+
+  \pub{NeurIPS 2025, poster}{Mutual-Supervised Learning for Sequential-to-Parallel Code Translation}{Changxin Ke, Rui Zhang\co, Shuo Wang, Li Ding, Guangli Li, Yuanbo Wen, \me, Ruiyuan Xu, Jin Qin, Jiaming Guo, Chenxi Wang, Ling Li, Qi Guo, Yunji Chen}{\href{https://openreview.net/forum?id=bjUDrU4wPv}{OpenReview}}
+
+  \pub{EMNLP 2024, findings}{Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly}{\me, Jiacheng Zhao, Chunwei Xia, Zheng Wang, Yunji Chen, Huimin Cui\co}{\relax}
+\end{enumerate}
+
+\textbf{\color{accent}Preprints}
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.7ex,topsep=0.5ex,label=\arabic*.,start=1]
+  \pub{arXiv 2026}{Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages (KLineage)}{\me\eq, Qiuchu Yu\eq, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao\co}{\href{https://arxiv.org/abs/2605.28213}{arXiv:2605.28213}}
+\end{enumerate}
+
+% ---------------- Research Experience ----------------
+\section{Research Experience}
+\textbf{Current projects}
+\begin{itemize}
+  \item \textbf{Kernel agents.} Agentic pipelines that synthesize, tune, and verify high-performance kernels for AI accelerators with LLM-in-the-loop search and feedback.
+  \item \textbf{Large-scale multi-agent systems.} Orchestration and runtime support for populations of cooperating LLM agents on complex software-engineering and system-level tasks.
+  \item \textbf{Secure and robust LLM decoding.} Constrained-decoding strategies that mitigate LLM safety vulnerabilities while preserving task performance.
+\end{itemize}
+\vspace{0.4ex}
+\textbf{Earlier projects}
+\begin{itemize}
+  \item \textbf{LLM-guided compilation workflows.} Model-in-the-loop pipelines for source-to-assembly translation and error recovery with LLM feedback.
+  \item \textbf{LLM-aware compiler construction.} Reusable compiler components leveraging LLM reasoning for IR transformation, code generation, and verification.
+  \item \textbf{Heterogeneous model offloading with TVM} (collaboration with Intel). NPU/CPU co-execution and scheduling within the TVM stack; prototyped a new TVM backend for a simulator-based NPU.
+  \item \textbf{VLIW instruction scheduling} (collaboration with Huawei). Instruction-scheduling heuristics targeting domain-specific VLIW architectures.
+\end{itemize}
+
+% ---------------- Skills ----------------
+\section{Technical Skills}
+\datedline{\textbf{Languages:} C/C++, Python, CUDA. \quad \textbf{Systems \& Tools:} LLVM/MLIR, TVM, PyTorch, LLM serving/inference stacks, Git, Linux.}{}
+\datedline{\textbf{Areas:} compiler construction, code generation \& translation, GPU/NPU kernel optimization, LLM agents and serving systems.}{}
+
+\end{document}
