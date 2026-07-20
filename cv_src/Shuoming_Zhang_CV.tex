@@ -4,7 +4,7 @@
 % =====================================================================
 \documentclass[11pt]{article}
 
-\usepackage[a4paper,margin=0.72in]{geometry}
+\usepackage[a4paper,margin=0.85in]{geometry}
 \usepackage{fontspec}
 \usepackage{xeCJK}
 \usepackage{xcolor}
@@ -37,9 +37,9 @@
   {\large\bfseries\color{accent}}
   {}{0em}
   {}[\vspace{-0.6ex}{\color{rulegray}\titlerule[0.9pt]}]
-\titlespacing*{\section}{0pt}{0.85ex}{0.5ex}
+\titlespacing*{\section}{0pt}{1.5ex}{0.9ex}
 
-\setlist[itemize]{leftmargin=1.3em,itemsep=0.15ex,topsep=0.2ex,parsep=0pt}
+\setlist[itemize]{leftmargin=1.3em,itemsep=0.3ex,topsep=0.35ex,parsep=0pt}
 \setlength{\parindent}{0pt}
 \pagestyle{empty}
 
@@ -52,9 +52,9 @@
 
 % Publication item
 \newcommand{\pub}[4]{% venue | title | authors | links
-  \item \textbf{[#1]}\, \emph{#2}\\[0.12ex]
+  \item \textbf{[#1]}\, \emph{#2}\\[0.25ex]
   {\small #3}%
-  \ifx\relax#4\relax\else\\[0.12ex]{\small #4}\fi}
+  \ifx\relax#4\relax\else\\[0.25ex]{\small #4}\fi}
 
 \newcommand{\me}{\textbf{Shuoming Zhang}}
 \newcommand{\eq}{$^{\dagger}$}
@@ -86,7 +86,7 @@
   }\\
   \par
 }
-\vspace{0.1ex}
+\vspace{0.5ex}
 
 % ---------------- Research Interests ----------------
 \section{Research Interests}
@@ -114,7 +114,7 @@
 \vspace{0.4ex}
 
 \textbf{\color{accent}Peer-Reviewed}
-\begin{enumerate}[leftmargin=1.6em,itemsep=0.2ex,topsep=0.2ex,label=\arabic*.]
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.6ex,topsep=0.4ex,label=\arabic*.]
   \pub{ICML 2026, spotlight}{CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization}{Yangyu Zhang\eq, \me\eq, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao\co}{\relax}
 
   \pub{ICML 2026}{LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis}{Ruiyuan Xu\eq, \me\eq, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui}{\relax}
@@ -141,7 +141,7 @@
 \end{enumerate}
 
 \textbf{\color{accent}Preprints}
-\begin{enumerate}[leftmargin=1.6em,itemsep=0.2ex,topsep=0.2ex,label=\arabic*.,start=1]
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.6ex,topsep=0.4ex,label=\arabic*.,start=1]
   \pub{arXiv 2026}{Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages (KLineage)}{\me\eq, Qiuchu Yu\eq, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao\co}{\href{https://arxiv.org/abs/2605.28213}{arXiv:2605.28213}}
 \end{enumerate}
 
@@ -165,10 +165,11 @@
 
 % ---------------- Service ----------------
 \section{Professional Service}
-\datedline{\textbf{Reviewer:} Transactions on Machine Learning Research (TMLR), Artificial Intelligence Review, ICML, NeurIPS, ICLR.}{}
+\datedline{\textbf{Reviewer:} Transactions on Machine Learning Research (TMLR), Artificial Intelligence Review, ICML, NeurIPS, ICLR, AAAI 2027.}{}
 
 % ---------------- Skills ----------------
 \section{Technical Skills}
-\datedline{\textbf{Languages:} C/C++, Python, CUDA. \quad \textbf{Systems \& Tools:} LLVM/MLIR, TVM, PyTorch, LLM serving/inference stacks, Git, Linux. \quad \textbf{Areas:} compiler construction, code generation \& translation, GPU/NPU kernel optimization, LLM agents and serving systems.}{}
+\datedline{\textbf{Languages:} C/C++, Python, CUDA. \quad \textbf{Systems \& Tools:} LLVM/MLIR, TVM, PyTorch, LLM serving/inference stacks, Git, Linux.}{}
+\datedline{\textbf{Areas:} compiler construction, code generation \& translation, GPU/NPU kernel optimization, LLM agents and serving systems.}{}
 
 \end{document}

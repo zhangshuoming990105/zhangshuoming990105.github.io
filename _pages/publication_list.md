@@ -29,7 +29,7 @@ permalink: /publications/
 - **[OSDI 2026]** *MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence*
 
   Authors: Yangyu Zhang, Lei Chen, Chunwei Xia, Shuaijiang Li, **Shuoming Zhang**, Zhicheng Li, Qianqi Sun, Jiawei Xiao, Ruiyuan Xu, Ao Chen, Guangli Li, Xiaobing Feng, Huimin Cui, Chenxi Wang, Jiacheng Zhao<sup>*</sup>
-  [[USENIX]](https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu) [[PDF]](https://www.usenix.org/system/files/osdi26-zhang-yangyu.pdf)
+  [[Download PDF]]({{"/_pdfs/osdi26_moonbright.pdf" | relative_url }}) [[USENIX]](https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu)
 
 - **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization **[Distinguished Paper Award]**
 

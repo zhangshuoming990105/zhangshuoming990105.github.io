@@ -66,7 +66,7 @@ See the [full publication list]({{ "/publications/" | relative_url }}).
 
 ## Professional Service
 
-- **Reviewer** — TMLR (Transactions on Machine Learning Research), Artificial Intelligence Review, ICML, NeurIPS, ICLR
+- **Reviewer** — TMLR (Transactions on Machine Learning Research), Artificial Intelligence Review, ICML, NeurIPS, ICLR, AAAI 2027
 
 ## Education
 
