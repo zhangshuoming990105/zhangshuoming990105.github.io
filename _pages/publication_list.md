@@ -26,6 +26,11 @@ permalink: /publications/
   Authors: Zhicheng Li, Jiacheng Zhao<sup>*</sup>, Yangyu Zhang, Zhaolin Duan, Xinyu Liu, Siqi Li, **Shuoming Zhang**, Shuaijiang Li, Donglin Yu, Yuan Wen, Chunwei Xia, Xiyu Shi, Huimin Cui
   [[Download PDF]]({{"/_pdfs/isca2026_resonator.pdf" | relative_url }})
 
+- **[OSDI 2026]** *MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence*
+
+  Authors: Yangyu Zhang, Lei Chen, Chunwei Xia, Shuaijiang Li, **Shuoming Zhang**, Zhicheng Li, Qianqi Sun, Jiawei Xiao, Ruiyuan Xu, Ao Chen, Guangli Li, Xiaobing Feng, Huimin Cui, Chenxi Wang, Jiacheng Zhao<sup>*</sup>
+  [[USENIX]](https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu) [[PDF]](https://www.usenix.org/system/files/osdi26-zhang-yangyu.pdf)
+
 - **[CGO 26]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU* Translation via 2D Vectorization **[Distinguished Paper Award]**
 
   Authors: Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui

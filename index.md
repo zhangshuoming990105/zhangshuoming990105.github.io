@@ -19,6 +19,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## News
 
+- **Jul 2026** — *MoonBright* accepted at **OSDI 2026**.
 - **May 2026** — New preprint *KLineage: Learning When to Optimize from Expert GPU-Kernel Lineages* on [arXiv](https://arxiv.org/abs/2605.28213).
 - **May 2026** — Two papers accepted at **ICML 2026**, including one **spotlight** (*CONTINUUM*).
 - **Apr 2026** — *When Grammar Guides the Attack* accepted at **CCS 2026**.
@@ -34,6 +35,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 - **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis* — Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui
 - **[CCS 2026]** *When Grammar Guides the Attack: Uncovering Control-Plane Vulnerabilities in LLMs with Structured Output* — **Shuoming Zhang**, Jiacheng Zhao<sup>*</sup>, Hanyuan Dong, Ruiyuan Xu, Zhicheng Li, Yangyu Zhang, Shuaijiang Li, Yuan Wen, Chunwei Xia, Zheng Wang, Xiaobing Feng, Huimin Cui
 - **[ISCA 2026]** *Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs* — Zhicheng Li, Jiacheng Zhao<sup>*</sup>, Yangyu Zhang, Zhaolin Duan, Xinyu Liu, Siqi Li, **Shuoming Zhang**, Shuaijiang Li, Donglin Yu, Yuan Wen, Chunwei Xia, Xiyu Shi, Huimin Cui
+- **[OSDI 2026]** *MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence* — Yangyu Zhang, Lei Chen, Chunwei Xia, Shuaijiang Li, **Shuoming Zhang**, Zhicheng Li, Qianqi Sun, Jiawei Xiao, Ruiyuan Xu, Ao Chen, Guangli Li, Xiaobing Feng, Huimin Cui, Chenxi Wang, Jiacheng Zhao<sup>*</sup>
 - **[CGO 2026 Distinguished Paper Award]** *From Threads to Tiles: T2T, a Compiler for CUDA-to-NPU Translation via 2D Vectorization* — Shuaijiang Li, Jiacheng Zhao<sup>*</sup>, Ying Liu, **Shuoming Zhang**, Lei Chen, Yijin Li, Yangyu Zhang, Zhicheng Li, Runyu Zhou, Xiyu Shi, Chunwei Xia, Yuan Wen, Xiaobing Feng, Huimin Cui
 
 See the [full publication list]({{ "/publications/" | relative_url }}).
