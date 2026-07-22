@@ -68,12 +68,17 @@ Compilers*
   [[Download PDF]](https://link.springer.com/content/pdf/10.1007/s11432-025-4739-1.pdf) [[Springer]](https://link.springer.com/article/10.1007/s11432-025-4739-1)
 
 
-## Pre-print Publications
+## Pre-print / Work-in-Progress Publications
 
 - **[arXiv 2026]** *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments*
 
   Authors: **Shuoming Zhang**, Ruiyuan Xu, Haofeng Li, Qiuchu Yu, Yangyu Zhang, Chunwei Xia, Xiaobing Feng, Chenxi Wang, Huimin Cui, Jiacheng Zhao<sup>*</sup>
   [[Download PDF]]({{"/_pdfs/arxiv_2607.18357.pdf" | relative_url }}) [[arXiv]](https://arxiv.org/abs/2607.18357)
+
+- **[Architecture 2.0 @ ISCA 2026]** *From Skills to Tracelets: Dependency-Guided Transfer for LLM Kernel Agents* **[workshop, work-in-progress]**
+
+  Authors: **Shuoming Zhang**, Ruiyuan Xu, Qiuchu Yu, Guangli Li, Huimin Cui, Jiacheng Zhao<sup>*</sup>
+  [[OpenReview]](https://openreview.net/forum?id=4Ago0kstgs)
 
 - **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages*
 

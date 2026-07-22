@@ -32,6 +32,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 ## Selected Publications
 
 - **[arXiv 2026]** *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments* — **Shuoming Zhang**, Ruiyuan Xu, Haofeng Li, Qiuchu Yu, Yangyu Zhang, Chunwei Xia, Xiaobing Feng, Chenxi Wang, Huimin Cui, Jiacheng Zhao<sup>*</sup>
+- **[Architecture 2.0 @ ISCA 2026 workshop]** *From Skills to Tracelets: Dependency-Guided Transfer for LLM Kernel Agents* — **Shuoming Zhang**, Ruiyuan Xu, Qiuchu Yu, Guangli Li, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages* — **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[ICML 2026 spotlight]** *CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization* — Yangyu Zhang<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis* — Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui
@@ -69,6 +70,14 @@ See the [full publication list]({{ "/publications/" | relative_url }}).
 ## Professional Service
 
 - **Reviewer** — TMLR (Transactions on Machine Learning Research), Artificial Intelligence Review, ICML, NeurIPS, ICLR, AAAI 2027
+
+## Talks & Activities
+
+- **Jul 2026** — Gave two poster presentations at **ICML 2026**.
+- **Jul 2026** — Attended **OSDI 2026**.
+- **Jun 2026** — Attended **ISCA 2026** and gave two talks: *Symbiotic MLLM Serving* (main conference) and *Agentic Kernel Optimization* (Architecture 2.0 workshop).
+- **May 2025** — Talk at **Huawei** (Beijing) on *LLM for Code Generation*.
+- **Nov 2024** — Talk at the **Institute of Information Engineering (IIE), CAS** on *LLM for Compiler*.
 
 ## Education
 
