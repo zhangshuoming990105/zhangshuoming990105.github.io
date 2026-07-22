@@ -19,6 +19,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## News
 
+- **Jul 2026** — New preprint *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments* on [arXiv](https://arxiv.org/abs/2607.18357).
 - **Jul 2026** — *MoonBright* accepted at **OSDI 2026**.
 - **May 2026** — New preprint *KLineage: Learning When to Optimize from Expert GPU-Kernel Lineages* on [arXiv](https://arxiv.org/abs/2605.28213).
 - **May 2026** — Two papers accepted at **ICML 2026**, including one **spotlight** (*CONTINUUM*).
@@ -30,6 +31,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## Selected Publications
 
+- **[arXiv 2026]** *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments* — **Shuoming Zhang**, Ruiyuan Xu, Haofeng Li, Qiuchu Yu, Yangyu Zhang, Chunwei Xia, Xiaobing Feng, Chenxi Wang, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages* — **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[ICML 2026 spotlight]** *CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization* — Yangyu Zhang<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Chunwei Xia, Shuaijiang Li, Zhicheng Li, Ruiyuan Xu, Zheming Yang, Lei Chen, Yuan Wen, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[ICML 2026]** *LEGO: An LLM-Enabled Hierarchical Optimizer for Tensor Computation Graphs with Structure-Aware Search and Compositional Synthesis* — Ruiyuan Xu<sup>†</sup>, **Shuoming Zhang**<sup>†</sup>, Guangli Li, Qiuchu Yu, Rui Zhang, Yangyu Zhang, Hao Qian, Chunwei Xia, Jiacheng Zhao, Chenxi Wang, Xiaobing Feng, Jingling Xue, Huimin Cui
@@ -55,7 +57,7 @@ See the [full publication list]({{ "/publications/" | relative_url }}).
 - **Kernel agents** — Building agentic pipelines that synthesize, tune, and verify high-performance kernels for AI accelerators with LLM-in-the-loop search and feedback.
 - **Large-scale multi-agent systems** — Designing orchestration and runtime support for populations of cooperating LLM agents on complex software-engineering and system-level tasks.
 - **Constrained and structured decoding** — Decoding as LLM infrastructure: constrained and grammar-based decoding for controllable, reliable, and safe generation.
-- **Grammar-guided code generation** *(work in progress)* — Steering LLMs with grammar constraints to produce syntactically and semantically valid code.
+- **Grammar-guided code generation** — Decode-time grammars that steer LLMs with grammar constraints to produce syntactically and semantically valid code, eliminating invalid references by construction ([arXiv](https://arxiv.org/abs/2607.18357)).
 
 ### Previous
 
