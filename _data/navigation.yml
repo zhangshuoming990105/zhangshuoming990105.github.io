@@ -5,6 +5,8 @@ main:
   - title: "Publications"
     url: /publications/
     external: false
+  - title: "Blog"
+    url: /blogs/
   - title: "CV"
     url: /_pdfs/Shuoming_Zhang_CV.pdf
     target: "_blank"

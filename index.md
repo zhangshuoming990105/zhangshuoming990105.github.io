@@ -19,6 +19,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## News
 
+- **Aug 2026** — First blog post: [*pi-think: Your Coding Agent's 'Private' Thoughts Are Just Tool Arguments*]({{ "/blogs/pi-think/" | relative_url }}).
 - **Jul 2026** — New preprint *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments* on [arXiv](https://arxiv.org/abs/2607.18357).
 - **Jul 2026** — *MoonBright* accepted at **OSDI 2026**.
 - **May 2026** — New preprint *KLineage: Learning When to Optimize from Expert GPU-Kernel Lineages* on [arXiv](https://arxiv.org/abs/2605.28213).
