@@ -6,9 +6,6 @@ title: ""  # Hide the automatic page title
 
 ## About
 
-**I am on the academic job market**, seeking a **postdoc or assistant-professor (AP) position starting in 2027**. I would be glad to connect — please feel free to [reach out](mailto:zhangshuoming17@mails.ucas.ac.cn) or take a look at my [CV]({{ "/_pdfs/Shuoming_Zhang_CV.pdf" | relative_url }}).
-{: .notice--info}
-
 I am a PhD candidate at the [State Key Laboratory of Processors](https://sklp.ict.ac.cn/), Institute of Computing Technology, CAS, and [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/), advised by [Prof. Huimin Cui](https://cuihuimin.github.io/) and [Assoc. Prof. Jiacheng Zhao](https://jiacheng.page/).
 
 My current research focuses on **kernel agents** and **large-scale multi-agent systems** — building LLM-driven agents that generate and optimize low-level kernels, and orchestrating large populations of agents to tackle complex system-level tasks. I am broadly interested in end-to-end system support for LLM workloads, from agent infrastructure to runtime orchestration. I received my B.Eng. in Computer Science from UCAS in 2021.
@@ -32,6 +29,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## Selected Publications
 
+- **[arXiv 2026]** *SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving* — Chuan Liu, **Shuoming Zhang**, Zhicheng Li, Qianqi Sun, Ruiyuan Xu, Qiuchu Yu, Xiyu Shi, Huimin Cui, Jiacheng Zhao. [[PDF]](https://arxiv.org/pdf/2609.37626) [[arXiv]](https://arxiv.org/abs/2609.37626)
 - **[arXiv 2026]** *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments* — **Shuoming Zhang**, Ruiyuan Xu, Haofeng Li, Qiuchu Yu, Yangyu Zhang, Chunwei Xia, Xiaobing Feng, Chenxi Wang, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[Architecture 2.0 @ ISCA 2026 workshop]** *From Skills to Tracelets: Dependency-Guided Transfer for LLM Kernel Agents* — **Shuoming Zhang**, Ruiyuan Xu, Qiuchu Yu, Guangli Li, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages* — **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
