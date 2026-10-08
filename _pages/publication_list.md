@@ -85,7 +85,7 @@ Compilers*
   Authors: **Shuoming Zhang**, Ruiyuan Xu, Qiuchu Yu, Guangli Li, Huimin Cui, Jiacheng Zhao<sup>*</sup>
   [[OpenReview]](https://openreview.net/forum?id=4Ago0kstgs)
 
-- **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages*
+- **[arXiv 2026]** *KLineage: Recovering the Missing When of Kernel Optimization by Deoptimizing Experts*
 
-  Authors: **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
-  [[Download PDF]]({{"/_pdfs/arxiv_2605.28213.pdf" | relative_url }}) [[arXiv]](https://arxiv.org/abs/2605.28213)
+  Authors: **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Ruiyuan Xu, Chenjing Zhang, Junjie Peng, Zhicheng Xie, Yangyu Zhang, Xiyu Shi, Ying Liu, Guangli Li, Xiaobing Feng, Huimin Cui, Xingjun Zhang, Jiacheng Zhao<sup>*</sup>
+  [[Download PDF]](https://arxiv.org/pdf/2605.28213) [[arXiv]](https://arxiv.org/abs/2605.28213)
