@@ -72,7 +72,7 @@ Compilers*
 
 - **[arXiv 2026]** *SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving*
 
-  Authors: Chuan Liu, **Shuoming Zhang**, Zhicheng Li, Qianqi Sun, Ruiyuan Xu, Qiuchu Yu, Xiyu Shi, Huimin Cui, Jiacheng Zhao
+  Authors: Chuan Liu, **Shuoming Zhang**<sup>*</sup>, Zhicheng Li, Qianqi Sun, Ruiyuan Xu, Qiuchu Yu, Xiyu Shi, Huimin Cui, Jiacheng Zhao
   [[Download PDF]](https://arxiv.org/pdf/2609.37626) [[arXiv]](https://arxiv.org/abs/2609.37626)
 
 - **[arXiv 2026]** *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments*

@@ -29,7 +29,7 @@ I am increasingly drawn to **GPU kernel agents** and **large-scale multi-agent s
 
 ## Selected Publications
 
-- **[arXiv 2026]** *SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving* — Chuan Liu, **Shuoming Zhang**, Zhicheng Li, Qianqi Sun, Ruiyuan Xu, Qiuchu Yu, Xiyu Shi, Huimin Cui, Jiacheng Zhao. [[PDF]](https://arxiv.org/pdf/2609.37626) [[arXiv]](https://arxiv.org/abs/2609.37626)
+- **[arXiv 2026]** *SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving* — Chuan Liu, **Shuoming Zhang**<sup>*</sup>, Zhicheng Li, Qianqi Sun, Ruiyuan Xu, Qiuchu Yu, Xiyu Shi, Huimin Cui, Jiacheng Zhao. [[PDF]](https://arxiv.org/pdf/2609.37626) [[arXiv]](https://arxiv.org/abs/2609.37626)
 - **[arXiv 2026]** *Decode-Time Grammars: Constrained LLM Generation over a Refinement Order of Grammar Fragments* — **Shuoming Zhang**, Ruiyuan Xu, Haofeng Li, Qiuchu Yu, Yangyu Zhang, Chunwei Xia, Xiaobing Feng, Chenxi Wang, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[Architecture 2.0 @ ISCA 2026 workshop]** *From Skills to Tracelets: Dependency-Guided Transfer for LLM Kernel Agents* — **Shuoming Zhang**, Ruiyuan Xu, Qiuchu Yu, Guangli Li, Huimin Cui, Jiacheng Zhao<sup>*</sup>
 - **[arXiv 2026]** *Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages* — **Shuoming Zhang**<sup>†</sup>, Qiuchu Yu<sup>†</sup>, Yangyu Zhang, Ruiyuan Xu, Xiyu Shi, Guangli Li, Xiaobing Feng, Huimin Cui, Jiacheng Zhao<sup>*</sup>
