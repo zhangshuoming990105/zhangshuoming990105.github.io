@@ -6,7 +6,7 @@ title: ""  # Hide the automatic page title
 
 ## About
 
-I am a PhD candidate at the [State Key Laboratory of Processors](https://sklp.ict.ac.cn/), Institute of Computing Technology, CAS, and [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/), advised by [Prof. Huimin Cui](https://cuihuimin.github.io/) and [Assoc. Prof. Jiacheng Zhao](https://jiacheng.page/).
+I am a PhD candidate at the [State Key Laboratory of Processors](https://sklp.ict.ac.cn/), Institute of Computing Technology, CAS, and [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/), advised by [Prof. Huimin Cui](https://cuihuimin.github.io/) and [Prof. Jiacheng Zhao](https://jiacheng.page/).
 
 My current research focuses on **kernel agents** and **large-scale multi-agent systems** — building LLM-driven agents that generate and optimize low-level kernels, and orchestrating large populations of agents to tackle complex system-level tasks. I am broadly interested in end-to-end system support for LLM workloads, from agent infrastructure to runtime orchestration. I received my B.Eng. in Computer Science from UCAS in 2021.
 
